@@ -18,7 +18,7 @@ interacoes.data_interacao,interacoes.datalhes
 FROM clientes 
 LEFT JOIN interacoes ON Clientes.clientes_id= interacoes.Cliente_id;
 
-/*3° */
+/*3° FINANÇAS*/
 /* exercicio 1 */
 
 SELECT transacoens.transacoes_id.
@@ -29,7 +29,7 @@ FROM transacoes
 INNER JOIN  contas ON 
 transacoes.conta_id +contas.conta_id
 
- /*4° */
+ /*4° SAUDE E GESTÃO*/
  /* exercicio 1 */
  
 SELECT prontuarios.prontuario_id, pacientes.nome AS nome_paciente,
@@ -40,7 +40,7 @@ prontuarios.data_consulta
 FROM prontuarios
 INNER JOIN pacientes ON prontuarios.paciente_id = pacientes.paciente_id;
 
-/*5° */
+/*5° LOGISTICA*/
 /* exercicio 1 */
 
 SELECT 
